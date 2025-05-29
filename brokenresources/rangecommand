@@ -1,0 +1,1 @@
+terraform apply -replace=docker_container.nginx[1] -replace=docker_container.nginx[2] -replace=docker_container.nginx[0] -auto-approve
